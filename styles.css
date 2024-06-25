@@ -1,0 +1,206 @@
+/*Variables - Color Scheme*/
+:root {
+    --accent: #EC7807;
+    --dark: #404040;
+    --light: #D1F5F1;
+}
+
+/*shared styles*/
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.content {
+    margin: 0 0 0 12%;
+    color: var(--dark);
+}
+
+h1 {
+    color: var(--dark);
+    text-align: center;
+    font-size: 4.5rem;
+    margin: 3% 0% 5% 0%;
+}
+
+/*Nav Styles*/
+nav {
+    background-color: var(--dark);
+    color: var(--light);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    padding: 10px;
+}
+
+nav img {
+    width: 125px;
+    border-radius: 100%;
+}
+
+nav ul {
+    list-style: none;
+    direction: rtl;
+    margin-top: 40%;
+    margin-right: 15%;
+}
+
+nav li {
+    margin-top: 5%;
+    margin-bottom: 25%;
+    font-size: 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+nav ul li a:hover {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+/*Home Styles*/
+
+section {
+    margin: 3% 10% 3% 10%;
+}
+
+section p {
+
+    font-size: 1.6rem;
+    margin: 0 5% 0 5%;
+}
+
+section img {
+    margin: 0 15px 0 15px;
+    float: left;
+    width: 35%;
+    border-radius: 10%;
+}
+
+hr {
+    border: solid 3px var(--dark);
+    width: 80%;
+    margin-left: 45%;
+}
+
+/*Classes Styles*/
+table {
+    border-collapse: collapse;
+    border: solid 1px var(--dark);
+    background-color: var(--light);
+    margin-top: 6%;
+    width: 98%;
+}
+
+table th {
+    border-color: lightslategrey;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: .8%;
+}
+
+table tr td,
+th {
+    border: solid 2px var(--dark);
+    width: 14%;
+}
+
+.card {
+    padding-left: 4%;
+}
+
+.bl {
+    border-left: solid 5px var(--accent);
+}
+
+.or {
+    border-left: solid 5px var(--dark);
+}
+
+/*Form Styles*/
+.formWrapper{
+    padding-left: 15%;
+    padding-right: 30%;
+}
+form {
+    background-color: var(--light);
+    margin: 0 55% 0 0;
+    border: dotted 2px var(--accent);
+    padding: 12px 10px 12px 10px;
+    width: 100%;
+}
+
+form input,
+option {
+    padding-left: 6px;
+    background-color: #EC780777;
+    margin-top: 5px;
+    border: none;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #404040BB;
+    border-radius: 4px;
+}
+
+form select {
+    margin: 3px;
+    font-size: 1.2rem;
+    font-style: italic;
+    background: #EC780777;
+    color: #404040BB;
+    border-radius: 4px;
+}
+
+form select:focus {
+    background: #EC780799;
+    color: #404040;
+    font-style: normal;
+}
+
+form input:focus {
+    background: #EC780799;
+    color: #404040;
+    font-style: normal;
+}
+fieldset{
+    padding-left: 5%;
+    font-size: 1.5rem;
+    border:1.5px solid var(--dark);
+}
+#formData label {
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+
+#formQuestions label {
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+
+form .submit {
+    padding: 5px 8px 5px 8px;
+    font-style: normal;
+    background-color: var(--accent);
+    color: var(--dark);
+    border-radius: 8px;
+}
+
+form .submit:hover {
+    background-color: #e89b4e;
+    color: var(--dark);
+}
+
+form .submit:focus {
+    color: #e89b4e;
+    background-color: var(--dark);
+}
